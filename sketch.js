@@ -48,7 +48,7 @@ for(i=0;i<5;i++)
   w=random(200,950)
   h=random(-height*4,height-300)
   f1 = createSprite(w,h)
-  f1.addimage('f1' , f2)
+  f1.addimage('f1' , obstacleIMG)
   obstacles.add(f1);
 }
 
